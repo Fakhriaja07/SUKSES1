@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    tools:context=".ui.riwayat.RiwayatFragment">
+
+    <TextView
+        android:id="@+id/text_riwayat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="136dp"
+        android:gravity="center"
+        android:text="MASATIF"
+        android:textStyle="bold"
+        android:textSize="32dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:padding="10dp"
+        android:hint="Tanggal Setoran"
+        android:inputType="text"
+        android:textColorHint="#A0A0A0" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="100dp"
+        android:hint="Surah"
+        android:inputType="text"
+        android:textColorHint="#A0A0A0" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:hint="Ayat"
+        android:padding="10dp"
+        android:inputType="text"
+        android:textColorHint="#A0A0A0" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:hint="Catatan"
+        android:padding="10dp"
+        android:inputType="text"
+        android:textColorHint="#A0A0A0" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:hint="Status"
+        android:padding="10dp"
+        android:inputType="text"
+        android:textColorHint="#A0A0A0" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="270dp"
+        android:text="Simpan"
+        android:padding="10dp"
+        android:id="@+id/btnRiwSim"
+        />
+
+</FrameLayout>
